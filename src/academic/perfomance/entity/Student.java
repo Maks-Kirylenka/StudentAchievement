@@ -1,12 +1,22 @@
 package academic.perfomance.entity;
 
 public class Student {
+    private int id;
     private String lastName;
     private String firstName;
 
-    public Student(String lastName, String firstName) {
+    public Student(int id, String lastName, String firstName) {
+        this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getLastName() {

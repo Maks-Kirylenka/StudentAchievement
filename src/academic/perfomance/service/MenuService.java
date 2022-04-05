@@ -7,6 +7,7 @@ public class MenuService {
     public void menu() {
         int num;
         System.out.println("1.Добавлять учащихся студентов. \n"
+                + "2.Исключать студентов из курса\n"
                 + "0.Выход \n"
                 + "Введите номер меню"
         );
@@ -14,6 +15,8 @@ public class MenuService {
 
         switch (num) {
             case 1: new StudentService().addStudent();
+                break;
+            case 2: new StudentService().removeStudent();
                 break;
             case 0:
                 System.exit(0);
