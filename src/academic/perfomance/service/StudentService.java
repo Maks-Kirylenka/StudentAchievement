@@ -1,4 +1,6 @@
-package academicPerformance;
+package academic.perfomance.service;
+
+import academic.perfomance.entity.Student;
 
 import java.util.ArrayList;
 import java.util.Scanner;

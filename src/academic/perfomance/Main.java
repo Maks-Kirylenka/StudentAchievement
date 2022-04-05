@@ -1,7 +1,6 @@
-package academicPerformance;
+package academic.perfomance;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import academic.perfomance.service.MenuService;
 
 public class Main {
 

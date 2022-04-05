@@ -1,10 +1,10 @@
-package academicPerformance;
+package academic.perfomance.service;
 
 import java.util.Scanner;
 
 public class MenuService {
     private Scanner scanner = new Scanner(System.in);
-    void menu() {
+    public void menu() {
         int num;
         System.out.println("1.Добавлять учащихся студентов. \n"
                 + "0.Выход \n"

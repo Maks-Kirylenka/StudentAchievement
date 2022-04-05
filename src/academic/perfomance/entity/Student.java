@@ -1,4 +1,4 @@
-package academicPerformance;
+package academic.perfomance.entity;
 
 public class Student {
     private String lastName;
