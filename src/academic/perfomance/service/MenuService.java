@@ -3,14 +3,15 @@ package academic.perfomance.service;
 import java.util.Scanner;
 
 public class MenuService {
-    private Scanner scanner = new Scanner(System.in);
-    public void menu() {
+
+    public static void menu() {
         int num;
         System.out.println("1.Добавлять учащихся студентов. \n"
                 + "2.Исключать студентов из курса\n"
                 + "0.Выход \n"
                 + "Введите номер меню"
         );
+        Scanner scanner = new Scanner(System.in);
         num = scanner.nextInt();
 
         switch (num) {
