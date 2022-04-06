@@ -2,14 +2,11 @@ package academic.perfomance.service;
 
 import academic.perfomance.entity.Student;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Scanner;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class StudentService {
-    private ArrayList<Student> students = new ArrayList<>();
+    private List<Student> students = new ArrayList<>();
     private Scanner scanner = new Scanner(System.in);
     transient private static AtomicInteger id = new AtomicInteger(0);
 
